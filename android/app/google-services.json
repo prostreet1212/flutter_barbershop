@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "128218223343",
+    "project_id": "flutterbarbershop-c28ca",
+    "storage_bucket": "flutterbarbershop-c28ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128218223343:android:994502bd7167f981f9811a",
+        "android_client_info": {
+          "package_name": "com.prostreet1212.flutter_barbershop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128218223343-6d1occ319m76if3snddurid9mgdf43m7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prostreet1212.flutter_barbershop",
+            "certificate_hash": "34231a9199931a9840cd4fc64f9a8bc2b38a5052"
+          }
+        },
+        {
+          "client_id": "128218223343-74v5g4sdjefvdvuk0dt0nd88bopaqea2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prostreet1212.flutter_barbershop",
+            "certificate_hash": "82f1c0b1b638f4c6d5caceaf710d5d30b3e0b2a1"
+          }
+        },
+        {
+          "client_id": "128218223343-4h7k3q44f5rge8ihsqibh1qs7veb94jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPLmAdG_z9VgsG92OTsYqYZqSeNLgZ-DQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128218223343-4h7k3q44f5rge8ihsqibh1qs7veb94jn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
