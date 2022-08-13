@@ -516,7 +516,8 @@ class BookingScreen extends ConsumerWidget {
         .doc(FirebaseAuth.instance.currentUser!.phoneNumber)
         .collection('Booking_${FirebaseAuth.instance.currentUser!.uid}')
         .doc(
-            '${context.read(selectedBarber).state.docId}_${DateFormat('dd_MM_yyyy').format(context.read(selectedDate).state)}');
+            '${context.read(selectedBarber).state.docId}_${DateFormat('dd_MM_yyyy')
+                .format(context.read(selectedDate).state)}:${context.read(selectedTime).state}');
 
     batch.set(barberBooking, bookingModel.toJson());
     batch.set(userBooking, bookingModel.toJson());
